@@ -1,10 +1,23 @@
-Welcome to your Appcelerator Titanium Mobile Project
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+---Leer los datos de un table view y de sus elementos hijos
+
+-se muestra como obtener el objeto data de un table view despues de ser generado
+-leer los elementos y propiedades de cada fila de la tabla
+-actualizar los elementos dentro del mismo tableview
+-escuchar eventos para los elementos internos de cada fila
+-obtener los datos de la tabla despues de ser actualizada
 
 
+---get the data from tableview object and their children elements
 
+--how get de tableView data object after the tableview is generated
+-read the children elements and read the properties for each row and child element 
+-update the children elements for a row
+-add event listener for the children elements and update the row
+-get the data from tableview after update
+
+
+(c) Copyright 2015 Enrique Gachuz (@ibilis_zx). All Rights Reserved. 
 ----------------------------------
 Stuff our legal folk make us say:
 

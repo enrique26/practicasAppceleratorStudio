@@ -1,15 +1,59 @@
+/*
+   index.tss
+   useTableViewData
+   
+   Created by Enrique Gachuz on 2015-06-19.
+   Copyright 2015 Enrique Gachuz. All rights reserved.
+*/
+
 ".container": {
-	backgroundColor:"white"
+  backgroundColor:'white',
+  navBarHidden:true,
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+
+//contenedores
+"#contenedorPremios":{
+	top:'5%',
+	layout:'vertical',
+	// left:'20%',
+	left:'4%',
+	bottom:'20%',
+	backgroundColor:'gray',
+	width:'90%',
+	
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+"#descripcionApp":{
+	// text:L('descripcionApp'),
+	color:'black',
+	height:Titanium.UI.SIZE
 }
+
+"#listaPremios":{
+	top:3,
+	separatorColor:'black'
+}
+
+"#total":{
+	bottom:'3%',
+	left:'4%',
+	text:'Total: 0',
+	color:'black'
+}
+
+
+"#aceptarCanje":{
+	bottom:10,
+	height:50,
+	width:152,
+	right:20,
+	backgroundGradient:{
+		type:'linear',
+		colors:['white','gray'],
+        backfillStart: false,
+        backfillEnd:true
+	},
+	title:'Accept/Read'
+}
+

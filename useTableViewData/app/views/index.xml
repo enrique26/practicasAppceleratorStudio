@@ -1,5 +1,13 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<View id="contenedorPremios">
+			<Label id="descripcionApp" text="L('descripcionApp')"></Label>
+			<TableView id="listaPremios"></TableView>
+			
+				
+		</View>
+		<Label id="total"></Label>
+		<Button id="aceptarCanje"></Button>
+
 	</Window>
 </Alloy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="descripcionApp">this example show how get the data object from a tableView and how read their elements.the plus and minus buttons modify the value for the label @cantidad in each row.The accept button, get the info for each row and their elements children to calculate the value for label @Total</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="descripcionApp">Este ejemplo muestra como obtener y leer el los datos de un tableview despues de ser generado.los botones mas y menos actualizan el valore de la etiqueta @cantidadP.El boton acpetar obtiene la informacion de cada fila y ademas los valores de los elementos hijos para obtner la cantidad de puntos totales. (revisar los INFO en la consola)</string>
+
+</resources>
